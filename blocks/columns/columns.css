@@ -37,3 +37,12 @@ background-color: #002b52;
   color: #fff;  
   
 }
+
+.content-flex  h2{
+
+  position: relative;
+    top: 71px;
+    padding-left: 20px;
+    color: white;
+}
+
