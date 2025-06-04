@@ -320,3 +320,23 @@ header .breadcrumbs ol li[aria-current] {
     padding: 0 32px;
   }
 }
+
+.nav-wrapper{
+        position: relative;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "logo logo top-navigation top-navigation top-navigation";
+        padding-bottom: 14px;
+    }
+
+    .top-navigation {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: .625rem;
+    }
