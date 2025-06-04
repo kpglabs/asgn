@@ -32,7 +32,7 @@
   }
 }
 
-.columns > .background-blue {
+.section.background-blue.columns-container {
 background-color: #002b52;
   color: #fff;  
   
