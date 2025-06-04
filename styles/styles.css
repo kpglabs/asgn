@@ -254,6 +254,10 @@ main > .section:first-of-type {
   main > .section > div {
     padding: 0 32px;
   }
+main > .section.c07-text{
+    margin-left: calc(25% + 1.875rem / 2);
+    width: calc(50% - 1.875rem);
+  }
 }
 
 /* section metadata */
