@@ -31,3 +31,9 @@
     order: unset;
   }
 }
+
+.columns > .background-blue {
+background-color: #002b52;
+  color: #fff;  
+  
+}
