@@ -321,7 +321,7 @@ header .breadcrumbs ol li[aria-current] {
   }
 }
 
-.nav-wrapper{
+header .nav-wrapper{
         position: relative;
         display: -ms-grid;
         display: grid;
@@ -333,7 +333,7 @@ header .breadcrumbs ol li[aria-current] {
         padding-bottom: 14px;
     }
 
-    .top-navigation {
+   header .top-navigation {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
