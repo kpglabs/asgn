@@ -279,4 +279,8 @@ header nav .top-navigation .default-content-wrapper > ul:last-child  a:any-link,
 font-weight: 700; 
 }
 
+header nav .top-navigation .default-content-wrapper > ul:last-child  > li {
+font-weight: 700; 
+}
+
 
