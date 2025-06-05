@@ -43,7 +43,10 @@ background-color: #002b52;
 
 .columns.block-content li, ul{
       list-style-type: none;
-          padding-left: 0;
+      padding-left: 0;
+}
+.columns.block-content ul li{
+     margin-bottom: 0.625rem;
 }
 .columns.block-content img{
   width: 20px;
@@ -52,6 +55,7 @@ background-color: #002b52;
 
 .columns.block-content a:any-link {
   color: #fff
+  font-weight: 500;
 }
 
 
