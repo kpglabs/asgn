@@ -45,6 +45,10 @@ background-color: #002b52;
       list-style-type: none;
           padding-left: 0;
 }
+.columns.block-content img{
+  width: 20px;
+  height: 20px;
+}
 
 .content-flex  h3{
 
