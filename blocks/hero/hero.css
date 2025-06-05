@@ -40,7 +40,9 @@
   color: var(--background-color);
 }
 
-.hero h1#our-solution{
+.hero h1{
   margin-top: 50%;
+  font-size: 36px;
+  font-weight:500
 }
 
