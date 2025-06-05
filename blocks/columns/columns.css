@@ -57,7 +57,7 @@ background-color: #002b52;
   height: 390px;
 }
 
-.content-flex h3:last-child {
+.content-flex h3#equity-inclusion-and-diversity {
     margin-top: -18px;
     top: 100px;
 }
