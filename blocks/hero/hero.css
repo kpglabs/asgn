@@ -40,3 +40,7 @@
   color: var(--background-color);
 }
 
+.hero h1#our-solution{
+  margin-top: 50%;
+}
+
