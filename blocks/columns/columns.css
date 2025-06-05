@@ -37,6 +37,13 @@ background-color: #002b52;
   color: #fff;  
   
 }
+.columns.block-content {
+        padding: 4.375rem 1.875rem;
+}
+
+.columns.block-content li, ul{
+      list-style-type: none;
+}
 
 .content-flex  h3{
 
