@@ -272,3 +272,9 @@ header nav .nav-tools {
 header nav .top-navigation .default-content-wrapper{
 float: right;    
 }
+
+header nav .top-navigation .default-content-wrapper > ul:last-child {
+font-weight: 500; 
+}
+
+
