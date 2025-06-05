@@ -50,6 +50,11 @@ background-color: #002b52;
   height: 20px;
 }
 
+.columns.block-content a:any-link {
+  color: #fff
+}
+
+
 .content-flex  h3{
 
   position: relative;
