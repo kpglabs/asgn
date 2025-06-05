@@ -53,4 +53,7 @@ background-color: #002b52;
     padding-left: 20px;
     color: white;
 }
+.content-flex  > div > img{
+  height: 390px
+}
 
