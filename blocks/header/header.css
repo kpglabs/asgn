@@ -251,7 +251,7 @@ header nav .nav-sections ul > li > ul > li {
   }
 
  header nav .nav-sections .default-content-wrapper > ul:first-child > li[aria-expanded='true'] > ul {
-  background-color: #fff
+  background-color: #fff;
   color: var(--text-color);
  }
 
