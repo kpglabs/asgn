@@ -71,7 +71,7 @@ background-color: #002b52;
   transform: scale(1.1);
     height: 390px;
     transition: transform 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955), -webkit-transform 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
+
   
 }
 
