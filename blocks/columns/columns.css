@@ -76,7 +76,6 @@ background-color: #002b52;
 }
 
 .content-flex img:hover{
-  transform: scale(1);
   outline: solid 5px white;
     outline-offset: -20px;
     margin: 0;
