@@ -296,6 +296,15 @@ header nav .top-navigation .default-content-wrapper > ul:first-child  a:any-link
 font-size: 14px; 
 }
 
+header nav .top-navigation .default-content-wrapper > ul:first-child  a:any-link, li:last-child img {
+top: 9px;
+position: relative;
+}
+
+header nav .top-navigation .default-content-wrapper > ul:first-child  a:any-link, li:last-child  {
+margin-top:-9px;
+}
+
 
 header nav .top-navigation .default-content-wrapper > ul:last-child  > li {
 font-weight: 700; 
