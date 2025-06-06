@@ -68,9 +68,14 @@ background-color: #002b52;
 }
 .content-flex img{
   height: 390px;
+  outline: solid 5px white;
+    outline-offset: -20px;
+    margin: 0;
 }
 
 .content-flex h3#equity-inclusion-and-diversity {
     margin-top: -18px;
     top: 100px;
 }
+
+
