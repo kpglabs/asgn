@@ -42,8 +42,9 @@ header nav[aria-expanded='true'] {
   }
 
   header nav[aria-expanded='true'] {
-    min-height: 0;
-    overflow: visible;
+   min-height: 89px;
+   overflow: visible;
+   padding: 14px 32px;
   }
 }
 
@@ -259,6 +260,18 @@ header nav .nav-sections ul > li > ul > li {
     border-bottom: 8px solid var(--light-color);
   }
 
+  header nav .nav-sections .default-content-wrapper > ul > li > ul::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(0, 120, 179);
+    transform: scaleX(0);
+    transform-origin: center center;
+    transition: transform 0.4s;
+}
+
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     padding: 8px 0;
   }
@@ -279,6 +292,10 @@ justify-content: flex-end;
 header nav .top-navigation .default-content-wrapper > ul:last-child  a:any-link, li {
 font-weight: 700; 
 }
+header nav .top-navigation .default-content-wrapper > ul:first-child  a:any-link, li {
+font-size: 18px; 
+}
+
 
 header nav .top-navigation .default-content-wrapper > ul:last-child  > li {
 font-weight: 700; 
