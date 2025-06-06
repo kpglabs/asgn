@@ -169,6 +169,7 @@ header nav .nav-sections ul {
   list-style: none;
   padding-left: 0;
   font-size: var(--body-font-size-s);
+         padding-bottom: 10px;
 }
 
 header nav .nav-sections ul > li {
