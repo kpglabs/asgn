@@ -88,4 +88,12 @@ background-color: #002b52;
     top: 100px;
 }
 
+.content-flex > div > div{
+  margin-right: 2rem;
+}
+
+.content-flex > div > div:first-child{
+  margin-left: 1rem;
+}
+
 
