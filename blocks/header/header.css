@@ -169,7 +169,7 @@ header nav .nav-sections ul {
   list-style: none;
   padding-left: 0;
   font-size: var(--body-font-size-s);
-         padding-bottom: 10px;
+   padding-bottom: 10px;
 }
 
 header nav .nav-sections ul > li {
@@ -252,6 +252,7 @@ header nav .nav-sections ul > li > ul > li {
 
  header nav .nav-sections .default-content-wrapper > ul:first-child > li[aria-expanded='true'] > ul {
   background-color: #fff
+  color: var(--text-color);
  }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
