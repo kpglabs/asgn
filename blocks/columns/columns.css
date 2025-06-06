@@ -79,6 +79,7 @@ background-color: #002b52;
   outline: solid 5px white;
     outline-offset: -20px;
     margin: 0;
+  transform: scale(1);
 }
 
 
