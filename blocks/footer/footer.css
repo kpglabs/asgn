@@ -46,5 +46,11 @@ footer li a:hover::after, .li a:focus::after, .li a:active::after {
     height: 40px;
 }
 
+.columns.block-content > div > div:first-child{
+    min-width: 30%;
+    background-color: #003b71;
+    padding: 3.125rem 2rem;
+}
+ 
 
   
