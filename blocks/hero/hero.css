@@ -6,7 +6,7 @@
 .hero {
   position: relative;
   padding: 40px 24px;
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .hero h1 {
@@ -27,7 +27,14 @@
 .hero img {
   object-fit: cover;
   width: 100%;
+}
+.hero img:before{
+  content: '';
+  display: block;
+  position: absolute;
   height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6)));
 }
 
 @media (width >= 900px) {
