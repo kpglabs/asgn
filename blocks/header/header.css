@@ -301,6 +301,17 @@ font-weight: 700;
  font-size: 1.125rem; 
  
 }
+
+header nav .top-navigation .default-content-wrapper > ul:last-child   li a:any-link {
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    line-height: 1.22222;
+    letter-spacing: 0;
+    line-height: 24px;
+    display: inline-block;
+    margin-bottom: 1.25rem; 
+}
 header nav .top-navigation .default-content-wrapper > ul:first-child  a:any-link, li {
 font-size: 14px; 
 }
