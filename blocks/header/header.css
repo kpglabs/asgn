@@ -296,7 +296,7 @@ float: right;
 header nav .top-navigation .default-content-wrapper > ul:last-child{
 justify-content: flex-end;
 }
-header nav .top-navigation .default-content-wrapper > ul:last-child  a:any-link, li {
+header nav .top-navigation .default-content-wrapper > ul:last-child   li {
 font-weight: 700;  
  font-size: 1.125rem; 
  
