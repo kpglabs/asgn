@@ -25,19 +25,17 @@ footer li a:hover::after, .li a:focus::after, .li a:active::after {
     transform: scaleX(1);
 }
  footer  li a::after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 3px;
-        bottom: -6px;
-        left: 0;
-        background-color: #fff;
-        -webkit-transform: scaleX(0);
-        transform: scaleX(0);
-        -webkit-transform-origin: center;
-        transform-origin: center;
-        -webkit-transition: .4s ease transform;
-        transition: .4s ease transform;
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: .3s ease transform;
+    transition: .3s ease transform;
   
 }
 
