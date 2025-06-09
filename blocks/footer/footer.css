@@ -74,12 +74,13 @@ footer li a:hover::after, .li a:focus::after, .li a:active::after {
     display: flex;
     flex-direction: column;
     flex: unset;
+  position: relative;
 }
 
 .columns.block-content > div > div:last-child:before {
         content: '';
         position: absolute;
-        left: 0;
+        left: -60px;
         top: 0;
         width: 3px;
         height: 100%;
