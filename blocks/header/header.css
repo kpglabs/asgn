@@ -330,12 +330,15 @@ header nav .nav-brand .icon-logo img {
     width: 402px;
 }
 
-header nav .top-navigation li:hover a:after, .li:focus a:after, .li:active a:after {
+ header nav .top-navigation li a:any-link, li {
+  text-decoration: none
+ }
+
+header nav .top-navigation li:hover:after, .li:focus:after, .li:active:after {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
-@media screen and (min-width: 64em) {
- header nav .top-navigation li a:after {
+ header nav .top-navigation li:after {
         content: '';
         position: absolute;
         width: 100%;
@@ -349,6 +352,8 @@ header nav .top-navigation li:hover a:after, .li:focus a:after, .li:active a:aft
         transform-origin: center;
         -webkit-transition: .4s ease transform;
         transition: .4s ease transform;
-    }
+  
 }
+
+
 
