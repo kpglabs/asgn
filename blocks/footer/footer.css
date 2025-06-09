@@ -22,11 +22,11 @@ footer a:any-link, li {
   text-decoration: none
  }
 
-footer li:hover:after, .li:focus:after, .li:active:after {
+footer li a:hover:after, .li a:focus:after, .li a:active:after {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
- footer  li:after {
+ footer  li a:after {
         content: '';
         position: absolute;
         width: 100%;
