@@ -94,6 +94,7 @@ footer li a:hover::after, .li a:focus::after, .li a:active::after {
   display: flex;
 }
 
- 
-
-  
+footer section.background-dark-blue
+    background-color: #01203d;
+    color: #fff;
+}
