@@ -18,7 +18,7 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
- .block-content a:after {
+ .block-content ul > li>  a:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -32,7 +32,7 @@ footer .footer p {
     transition: .3s ease transform;
 
 }
-.block-content a:hover:after, .block-content a:focus:after, .block-content a:active:after {
+.block-content ul > li>  a:hover:after, a:focus:after, a:active:after {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
