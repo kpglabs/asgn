@@ -316,5 +316,7 @@ margin-top:-9px;
 header nav .top-navigation .default-content-wrapper > ul:last-child  > li {
 font-weight: 700; 
 }
-
+header nav .nav-brand .icon-logo img {
+    width: 402px;
+}
 
