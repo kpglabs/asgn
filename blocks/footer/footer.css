@@ -57,7 +57,7 @@ footer li a:hover::after, .li a:focus::after, .li a:active::after {
     line-height: 28px;
     letter-spacing: .01em;
     font-size: 20px;
-    margin-top: 80px 0;:
+    margin-top: 80px 0;
 }
 
 .columns.block-content > div > div:first-child h3:before {
