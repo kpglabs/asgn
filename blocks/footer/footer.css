@@ -18,26 +18,30 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
- .block-content ul > li::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #fff;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: .3s ease transform;
-    transition: .3s ease transform;
+footer a:any-link, li {
+  text-decoration: none
+ }
 
-}
-.block-content ul > li:hover::after, li:focus::after, li:active::after {
+footer li:hover:after, .li:focus:after, .li:active:after {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
-.block-content a{
-  text-decoration: none;
+ footer  li:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: -6px;
+        left: 0;
+        background-color: #fff;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transition: .4s ease transform;
+        transition: .4s ease transform;
+  
 }
+
 
   
