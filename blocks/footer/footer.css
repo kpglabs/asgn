@@ -86,6 +86,13 @@ footer li a:hover::after, .li a:focus::after, .li a:active::after {
       color: #fff;
 }
 
+ .icon-facebook, .icon-youtube, .icon-twitter, .icon-feed, .icon-instagram, .icon-pintrest, .icon-linkedin{
+           margin-right: 2rem;
+        margin-bottom: 1.25rem;
+        margin-left: 0;
+   
+ }
+
 .footer-block a:hover{
    text-decoration: none;
 }
