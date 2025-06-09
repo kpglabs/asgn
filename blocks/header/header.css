@@ -201,21 +201,24 @@ header nav .nav-sections ul > li > ul > li {
     cursor: pointer;
   }
 
-  header nav .nav-sections .nav-drop::after {
+  header nav .nav-sections ul:first-child .nav-drop::before {
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    border-color: #006ba6;
     content: '';
     display: inline-block;
+    height: 8px;
     position: absolute;
-    top: 0.5em;
-    right: 2px;
+    vertical-align: top;
+    width: 8px;
+    top: 3px;
+    right: 4px;
+    -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
-    width: 6px;
-    height: 6px;
-    border: 2px solid currentcolor;
-    border-radius: 0 1px 0 0;
-    border-width: 2px 2px 0 0;
+
   }
 
-  header nav .nav-sections .nav-drop[aria-expanded='true']::after {
+  header nav .nav-sections  ul:first-child .nav-drop[aria-expanded='true']::before {
     top: unset;
     bottom: 0.5em;
     transform: rotate(315deg);
@@ -334,11 +337,11 @@ header nav .nav-brand .icon-logo img {
   text-decoration: none
  }
 
-header nav .top-navigation.nav-sections .nav-drop li:hover:after, .li:focus:after, .li:active:after {
+header nav .top-navigation li:hover:after, .li:focus:after, .li:active:after {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
- header nav .top-navigation.nav-sections .nav-drop li:after {
+ header nav .top-navigation  li:after {
         content: '';
         position: absolute;
         width: 100%;
