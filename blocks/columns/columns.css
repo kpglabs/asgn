@@ -89,6 +89,10 @@ background-color: #002b52;
   transform: scale(1);
 }
 
+.content-flex .icon-right{
+  width:24px;
+  height:24px;
+}
 
 .content-flex h3#equity-inclusion-and-diversity {
     margin-top: -18px;
