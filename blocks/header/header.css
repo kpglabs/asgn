@@ -297,7 +297,9 @@ header nav .top-navigation .default-content-wrapper > ul:last-child{
 justify-content: flex-end;
 }
 header nav .top-navigation .default-content-wrapper > ul:last-child  a:any-link, li {
-font-weight: 700; 
+font-weight: 700;  
+ font-size: 1.125rem; 
+ 
 }
 header nav .top-navigation .default-content-wrapper > ul:first-child  a:any-link, li {
 font-size: 14px; 
@@ -313,9 +315,6 @@ margin-top:-9px;
 }
 
 
-header nav .top-navigation .default-content-wrapper > ul:last-child  > li {
-font-weight: 700; 
-}
 header nav .nav-brand .icon-logo img {
     width: 402px;
 }
