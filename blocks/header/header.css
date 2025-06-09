@@ -302,7 +302,7 @@ font-weight: 700;
  
 }
 
-header nav .top-navigation .default-content-wrapper > ul:last-child   li a:any-link {
+header nav .top-navigation .default-content-wrapper > ul:last-child  > li[aria-expanded='true'] > ul  a:any-link {
     font-size: 1.125rem;
     font-weight: 500;
     letter-spacing: -.5px;
