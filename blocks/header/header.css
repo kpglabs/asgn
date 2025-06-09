@@ -330,12 +330,12 @@ header nav .nav-brand .icon-logo img {
     width: 402px;
 }
 
-header nav .top-navigation .nav-drop:hover a:after, .menu-item:focus a:after, .menu-item:active a:after {
+header nav .top-navigation li:hover a:after, .li:focus a:after, .li:active a:after {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
 @media screen and (min-width: 64em) {
-    .nav-drop a:after {
+ header nav .top-navigation li a:after {
         content: '';
         position: absolute;
         width: 100%;
