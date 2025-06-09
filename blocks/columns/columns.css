@@ -90,8 +90,12 @@ background-color: #002b52;
 }
 
 .content-flex .icon-right img{
-  width:24px;
-  height:24px;
+ width: 24px;
+height: 24px;
+top: -48px;
+position: relative;
+left: 304px;
+display: block;
 }
 
 .content-flex h3#equity-inclusion-and-diversity {
