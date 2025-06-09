@@ -54,7 +54,7 @@ footer li a:hover::after, .li a:focus::after, .li a:active::after {
     padding: 1.875rem;
 }
 
-.footer-block li{
+.footer-block li , a{
   text-decoration: none;
     position: relative;
     font-size: .875rem;
@@ -62,7 +62,11 @@ footer li a:hover::after, .li a:focus::after, .li a:active::after {
     letter-spacing: 0;
     line-height: 20px;
     margin-right: 2.5rem;
-  color: #fff;
+    white-space: nowrap;
+}
+
+.footer-block ul{
+  display: flex;
 }
 
  
