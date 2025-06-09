@@ -330,3 +330,25 @@ header nav .nav-brand .icon-logo img {
     width: 402px;
 }
 
+header nav .top-navigation .nav-drop:hover a:after, .menu-item:focus a:after, .menu-item:active a:after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+@media screen and (min-width: 64em) {
+    .nav-drop a:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: -6px;
+        left: 0;
+        background-color: #0078b3;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transition: .4s ease transform;
+        transition: .4s ease transform;
+    }
+}
+
