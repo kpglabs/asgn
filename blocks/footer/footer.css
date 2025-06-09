@@ -50,7 +50,7 @@ footer li a:hover::after, .li a:focus::after, .li a:active::after {
     padding: 3.125rem 2rem;
 }
 
-.columns.block-content > div:nth-child(2) {
+.columns.block-content > div >  div:nth-child(2) {
 position: relative;
   top: -26px;
   
