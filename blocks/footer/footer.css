@@ -36,5 +36,8 @@ footer .footer p {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+.block-content a{
+  text-decoration: none;
+}
 
   
