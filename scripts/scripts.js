@@ -60,6 +60,7 @@ function autolinkModals(doc) {
 function buildAutoBlocks(main) {
   try {
     buildHeroBlock(main);
+    buildBreadcrumbBlock(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
@@ -150,6 +151,14 @@ function loadDelayed() {
   // eslint-disable-next-line import/no-cycle
   window.setTimeout(() => import('./delayed.js'), 3000);
   // load anything that can be postponed to the latest here
+}
+
+function buildBreadcrumbBlock(main) {
+  if (window.location.pathname !== '/' && window.isErrorPage !== true && !getMetadata('hideBreadcrumb')) {
+    const section = createElement('div');
+    section.append(buildBlock('breadcrumb', { elems: [] }));
+    main.prepend(section);
+  }
 }
 
 async function loadPage() {
