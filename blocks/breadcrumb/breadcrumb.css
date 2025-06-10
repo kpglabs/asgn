@@ -24,8 +24,18 @@ main > .breadcrumb-container {
 
 .breadcrumb > nav a {
   text-decoration: none;
+  color: #0074ad;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+
+.breadcrumb > nav a:hover, .breadcrumb > nav a:focus{
+  color: #003b71;
+    text-decoration: underline;
 }
 
 .breadcrumb .breadcrumb-separator {
   margin-inline: 1.5ch;
 }
+
+
