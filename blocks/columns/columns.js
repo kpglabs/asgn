@@ -6,7 +6,7 @@ export default function decorate(block) {
   // setup image columns
   [...block.children].forEach((row) => {
     if(block.classList.contains('flex-block')){
-      const content = row.querySelector('h3');
+      const content = row.querySelector('picture');
         const border = document.createElement('div');
         border.className = 'border';
         content.append(border);
