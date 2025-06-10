@@ -148,4 +148,13 @@ display: block;
     background-color: rgba(0, 0, 0, 0.45);
 }
 
+.flex-block.columns h3 a{
+   font-size: 1.625rem;
+    letter-spacing: -0.01em;
+    line-height: 32px;
+    color: white;
+    position: absolute;
+    margin: 0;
+    z-index: 1;
+}
 
