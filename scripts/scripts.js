@@ -69,7 +69,7 @@ function buildBreadcrumbBlock(main) {
     section.append(buildBlock('breadcrumb', { elems: [] }));
     main.prepend(section);
     const header = document.querySelector('header');
-    if(header.querySelector('breadcrumb-container').){
+    if(header.querySelector('breadcrumb-container')){
    header.querySelector('breadcrumb-container').remove();
     }
   }
