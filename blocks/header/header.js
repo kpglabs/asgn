@@ -144,7 +144,7 @@ async function buildBreadcrumbsFromNavTree(nav, currentUrl) {
   return crumbs;
 }
 
-async function buildBreadcrumbs() {
+/*8async function buildBreadcrumbs() {
   const breadcrumbs = document.createElement('nav');
     breadcrumbs.className = 'breadcrumbs';
 
@@ -168,7 +168,7 @@ async function buildBreadcrumbs() {
   breadcrumbs.append(ol);
   return breadcrumbs;
 }
-
+*/
 /**
  * loads and decorates the header, mainly the nav
  * @param {Element} block The header block element
