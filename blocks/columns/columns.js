@@ -6,10 +6,10 @@ export default function decorate(block) {
   // setup image columns
   [...block.children].forEach((row) => {
     if(block.classList.contains('flex-block')){
-     
+      const content = row.querySelector('h3');
         const border = document.createElement('div');
         border.className = 'border';
-        row.append(border);
+        content.append(border);
      
     }
     [...row.children].forEach((col) => {
