@@ -115,7 +115,7 @@ function getDirectTextContent(menuItem) {
     .join(' ');
 }
 
-/*async function buildBreadcrumbsFromNavTree(nav, currentUrl) {
+async function buildBreadcrumbsFromNavTree(nav, currentUrl) {
   const crumbs = [];
 
   const homeUrl = document.querySelector('.nav-brand a[href]').href;
@@ -148,7 +148,7 @@ async function buildBreadcrumbs() {
   const breadcrumbs = document.createElement('nav');
     breadcrumbs.className = 'breadcrumbs';
 
-  //const crumbs = await buildBreadcrumbsFromNavTree(document.querySelector('.nav-sections'), document.location.href);
+  const crumbs = await buildBreadcrumbsFromNavTree(document.querySelector('.nav-sections'), document.location.href);
 
   const ol = document.createElement('ol');
   ol.append(...crumbs.map((item) => {
@@ -168,7 +168,7 @@ async function buildBreadcrumbs() {
   breadcrumbs.append(ol);
   return breadcrumbs;
 }
-*/
+
 /**
  * loads and decorates the header, mainly the nav
  * @param {Element} block The header block element
