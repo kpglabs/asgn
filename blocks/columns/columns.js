@@ -12,7 +12,7 @@ export default function decorate(block) {
          const image = pic.querySelector('img');
         const border = document.createElement('div');
         border.className = 'border';
-        image.append(border);
+        col.append(border);
      
     }
     
