@@ -157,8 +157,8 @@ function buildBreadcrumbBlock(main) {
   if (window.location.pathname !== '/' && window.isErrorPage !== true && !getMetadata('hideBreadcrumb')) {
     const section = createElement('div');
     section.append(buildBlock('breadcrumb', { elems: [] }));
-     const main = doc.querySelector('main');
-    main.append(section);
+     const header = doc.querySelector('header');
+    header.append(section);
   }
 }
 
