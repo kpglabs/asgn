@@ -102,9 +102,9 @@ export function decorateMain(main) {
 async function loadEager(doc) {
   doc.documentElement.lang = 'en';
   decorateTemplateAndTheme();
-  if (getMetadata('breadcrumbs').toLowerCase() === 'true') {
+  /*if (getMetadata('breadcrumbs').toLowerCase() === 'true') {
     doc.body.dataset.breadcrumbs = true;
-  }
+  }*/
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
