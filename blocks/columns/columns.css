@@ -133,7 +133,7 @@ display: block;
     animation-delay: .4s;
 }
 
-.flex-block.columns picture img::before {
+.flex-block.columns > div > div::before {
     content: '';
     position: absolute;
     left: 0;
