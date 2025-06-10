@@ -121,7 +121,7 @@ display: block;
     width: 0px;
     height: 0px;
 }
-borderDraw animation {
+@keyframes borderDraw  {
     visibility: visible;
     height: 100%;
     width: 100%;
