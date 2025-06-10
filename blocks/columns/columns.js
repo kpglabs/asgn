@@ -9,7 +9,7 @@ export default function decorate(block) {
     [...row.children].forEach((col) => {
       const pic = col.querySelector('picture');
         if(block.classList.contains('flex-block')){
-         const image = col.querySelector('p > a');
+         const image = pic.querySelector('img');
         const border = document.createElement('div');
         border.className = 'border';
         image.append(border);
