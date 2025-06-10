@@ -134,7 +134,7 @@ display: block;
     animation-delay: .4s;
 }
 
-.flex-block.columns > div > div::before {
+.flex-block.columns > div > div > p::before {
     content: '';
     position: absolute;
     left: 0;
@@ -143,6 +143,15 @@ display: block;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.45);
 }
+.flex-block.columns > div > div > p{
+ position: absolute;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background-color: #003b71;
+}
+
+
 
  .flex-block.columns h3 a{
    font-size: 1.625rem;
