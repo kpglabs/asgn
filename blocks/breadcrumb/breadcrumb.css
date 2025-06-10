@@ -27,11 +27,16 @@ main > .breadcrumb-container {
   color: #0074ad;
   -webkit-transition: color .2s ease-in-out;
   transition: color .2s ease-in-out;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+
 }
 
 .breadcrumb > nav a:hover, .breadcrumb > nav a:focus{
   color: #003b71;
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .breadcrumb .breadcrumb-separator {
