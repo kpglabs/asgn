@@ -94,6 +94,7 @@ display: block;
     margin-right: .9375rem;
     flex: 0 0 auto;
     position: relative;
+    display: flex
 }
  
 .flex-block.columns picture img .border{
