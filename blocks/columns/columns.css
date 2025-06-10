@@ -60,26 +60,10 @@ background-color: #002b52;
 }
 
 
-.flex-block  h3{
- position: relative;
-    top: 71px;
-    padding-left: 20px;
-   font-size: 1.625rem;
-    font-weight: 600;
-    letter-spacing: -0.01em;
-    line-height: 32px;
-    color: white;
-    margin: 0;
-    z-index: 1;
-    overflow: hidden;
-}
+
 .flex-block img{
-  height: 390px;
   transform: scale(1.1);
     height: 390px;
-    transition: transform 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955), -webkit-transform 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-
-  
 }
 
 .flex-block img:hover{
