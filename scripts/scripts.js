@@ -156,8 +156,9 @@ function loadDelayed() {
 function buildBreadcrumbBlock(main) {
   if (window.location.pathname !== '/' && window.isErrorPage !== true && !getMetadata('hideBreadcrumb')) {
     const section = createElement('div');
-    section.append(buildBlock('breadcrumb', { elems: [] }));    
-    main.append(section);
+    section.append(buildBlock('breadcrumb', { elems: [] }));  
+    const header = document.createElement(header);  
+    header.append(section);
   }
 }
 
