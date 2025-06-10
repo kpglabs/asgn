@@ -110,5 +110,17 @@ display: block;
 .content-flex > div > div:first-child{
   margin-left: 1rem;
 }
+.flex-block.columns > div {
+    gap: 0;
+    margin-left: -.9375rem;
+    margin-right: -.9375rem;
+}
+.flex-block.columns > div > div {
+    width: calc(33.33333% - 1.875rem);
+    margin-left: .9375rem;
+    margin-right: .9375rem;
+    flex: 0 0 auto;
+  position: relative;
+}
 
 
