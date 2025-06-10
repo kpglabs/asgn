@@ -32,7 +32,7 @@ function buildHeroBlock(main) {
 
 function buildBreadcrumbBlock(main) {
   if (window.location.pathname !== '/' && window.isErrorPage !== true && !getMetadata('hideBreadcrumb')) {
-    const section = createElement('div');
+    const section = document.createElement('div');
     section.append(buildBlock('breadcrumb', { elems: [] }));
     main.prepend(section);
   }
