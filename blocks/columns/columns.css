@@ -131,4 +131,11 @@ display: block;
     animation: 0.8s ease-in-out 0.4s 1 normal forwards running borderDraw;
 }
 
+.flex-block.columns picture:hover .border:before, .flex-block.columns picture:focus .border:before {
+    -webkit-animation: borderDraw .8s ease-in-out forwards;
+    animation: borderDraw .8s ease-in-out forwards;
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+
 
