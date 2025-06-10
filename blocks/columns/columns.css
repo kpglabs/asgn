@@ -96,7 +96,7 @@ display: block;
     display: flex
 }
  
-.flex-block  img .border{
+.flex-block .border{
   
     position: relative;
     width: calc(100% - 24px);
