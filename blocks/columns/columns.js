@@ -5,7 +5,7 @@ export default function decorate(block) {
 
   // setup image columns
   [...block.children].forEach((row) => {
-       const border = row.queruSelector('.flex-block > div')
+       const border = row.querySelector('.flex-block > div')
       if(border){
          border.classList.add('border');
       }
