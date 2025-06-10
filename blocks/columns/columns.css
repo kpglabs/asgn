@@ -183,7 +183,13 @@ display: block;
     position: absolute;
     margin: 0;
     z-index: 1;
+    padding: 32px;
 }
+
+.flex-block.columns h3 a:hover , .flex-block.columns h3 a:focus {
+   text-decoration: none;
+}
+
 @keyframes borderDraw  {
  
   100% {
