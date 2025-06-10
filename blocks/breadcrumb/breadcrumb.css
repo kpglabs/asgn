@@ -7,7 +7,7 @@ main > .breadcrumb-container {
 .blog main div.breadcrumb-container {
   padding: 10px;
 }
-main > .breadcrumb-container{
+main > div{
   margin:0px;
 }
 
