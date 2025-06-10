@@ -96,7 +96,7 @@ display: block;
     display: flex
 }
  
-.flex-block.columns a > picture > img .border{
+.flex-block picture img .border{
   
     position: relative;
     width: calc(100% - 24px);
@@ -106,7 +106,7 @@ display: block;
     z-index: 50;
 }
 
-.flex-block.columns a > picture > img .border::after {
+.flex-block picture img .border::after {
     bottom: 0px;
     left: 0px;
     padding-right: 5px;
@@ -114,7 +114,7 @@ display: block;
     border-right: 4px solid white;
 }
 
-.flex-block.columns   a > picture > img .border::before, .flex-block.columns a > picture > img .border::after {
+.flex-block picture img .border::before, .flex-block picture img .border::after {
     content: "";
     position: absolute;
     visibility: hidden;
@@ -133,7 +133,7 @@ display: block;
     animation-delay: .4s;
 }
 
-.flex-block.columns a > picture > img:hover .border:after, .flex-block.columns a > picture > img:focus .border:after {
+.flex-block.columns a > picture > img:hover .border::after, .flex-block.columns a > picture > img:focus .border::after {
     -webkit-animation: borderDraw .8s ease-in-out forwards;
     animation: borderDraw .8s ease-in-out forwards;
 }
