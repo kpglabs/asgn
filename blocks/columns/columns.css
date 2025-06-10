@@ -133,6 +133,11 @@ display: block;
     animation-delay: .4s;
 }
 
+.flex-block.columns p > a:hover .border:after, .flex-block.columns p > a:focus .border:after {
+    -webkit-animation: borderDraw .8s ease-in-out forwards;
+    animation: borderDraw .8s ease-in-out forwards;
+}
+
 .flex-block.columns > div > div > p::before {
     content: '';
     position: absolute;
