@@ -239,6 +239,7 @@ export default async function decorate(block) {
   block.append(navWrapper);
 
   if (getMetadata('breadcrumbs').toLowerCase() === 'true') {
-     //navWrapper.append(await buildBreadcrumbs());
-  }
+     if(className.querySelector(breadcrumb-container)){
+      alert("hi");
+     }
 }
