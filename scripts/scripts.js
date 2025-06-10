@@ -126,11 +126,13 @@ function a11yLinks(main) {
  * @param {Element} main The main element
  */
 // eslint-disable-next-line import/prefer-default-export
-export function decorateMain(main) {
+export function decorateMain(main , isFragment) {
   // hopefully forward compatible button decoration
   decorateButtons(main);
   decorateIcons(main);
-  buildAutoBlocks(main);
+  if (!isFragment) {
+    buildAutoBlocks(main);
+  }
   decorateSections(main);
   decorateBlocks(main);
   // add aria-label to links
