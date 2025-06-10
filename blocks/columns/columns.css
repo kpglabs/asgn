@@ -106,7 +106,7 @@ display: block;
     z-index: 50;
 }
 
-.flex-block.columns img .border::after {
+.flex-block.columns picture img .border::after {
     bottom: 0px;
     left: 0px;
     padding-right: 5px;
@@ -114,7 +114,7 @@ display: block;
     border-right: 4px solid white;
 }
 
-.flex-block.columns img .border::before, .flex-block.columns img .border::after {
+.flex-block.columns picture img .border::before, .flex-block.columns picture img .border::after {
     content: "";
     position: absolute;
     visibility: hidden;
@@ -122,18 +122,18 @@ display: block;
     height: 0px;
 }
 
-.flex-block.columns img:hover .border::before, .flex-block.columns img:focus .border::before {
+.flex-block.columns picture img:hover .border::before, .flex-block.columns picture img:focus .border::before {
     animation: 0.8s ease-in-out 0.4s 1 normal forwards running borderDraw;
 }
 
-.flex-block.columns img:hover .border:before, .flex-block.columns img:focus .border:before {
+.flex-block.columns picture img:hover .border:before, .flex-block.columns picture img:focus .border:before {
     -webkit-animation: borderDraw .8s ease-in-out forwards;
     animation: borderDraw .8s ease-in-out forwards;
     -webkit-animation-delay: .4s;
     animation-delay: .4s;
 }
 
-.flex-block.columns img:before {
+.flex-block.columns picture img:before {
     content: '';
     position: absolute;
     left: 0;
@@ -143,7 +143,7 @@ display: block;
     background-color: rgba(0, 0, 0, 0.45);
 }
 
- flex-block.columns h3 a{
+ .flex-block.columns h3 a{
    font-size: 1.625rem;
     letter-spacing: -0.01em;
     line-height: 32px;
