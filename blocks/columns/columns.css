@@ -96,7 +96,7 @@ display: block;
     position: relative;
 }
  
-.flex-block.columns .border{
+.flex-block.columns picture img .border{
   
     position: relative;
     width: calc(100% - 24px);
@@ -126,14 +126,14 @@ display: block;
     animation: 0.8s ease-in-out 0.4s 1 normal forwards running borderDraw;
 }
 
-.flex-block.columns picture img:hover .border:before, .flex-block.columns picture img:focus .border:before {
+.flex-block.columns picture img:hover .border::before, .flex-block.columns picture img:focus .border::before {
     -webkit-animation: borderDraw .8s ease-in-out forwards;
     animation: borderDraw .8s ease-in-out forwards;
     -webkit-animation-delay: .4s;
     animation-delay: .4s;
 }
 
-.flex-block.columns picture img:before {
+.flex-block.columns picture img::before {
     content: '';
     position: absolute;
     left: 0;
