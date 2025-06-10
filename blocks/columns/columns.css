@@ -163,8 +163,12 @@ display: block;
     z-index: 1;
 }
 @keyframes borderDraw  {
+ 
+  100% {
     visibility: visible;
     height: 100%;
     width: 100%;
     padding-top: 0px;
+  }
+    
 }
