@@ -106,7 +106,7 @@ display: block;
     z-index: 50;
 }
 
-.flex-block.columns .border::after {
+.flex-block.columns img .border::after {
     bottom: 0px;
     left: 0px;
     padding-right: 5px;
@@ -114,7 +114,7 @@ display: block;
     border-right: 4px solid white;
 }
 
-.flex-block.columns .border::before, .flex-block.columns .border::after {
+.flex-block.columns img .border::before, .flex-block.columns img .border::after {
     content: "";
     position: absolute;
     visibility: hidden;
