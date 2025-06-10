@@ -1,14 +1,16 @@
 export default function decorate(block) {
   const cols = [...block.firstElementChild.children];
   block.classList.add(`columns-${cols.length}-cols`);
- 
+
 
   // setup image columns
   [...block.children].forEach((row) => {
+    if(block.classList.contains('flex-block')){
        const border = row.querySelector('.flex-block > div')
       if(border){
          border.classList.add('border');
       }
+    }
     [...row.children].forEach((col) => {
       const pic = col.querySelector('picture');
     
