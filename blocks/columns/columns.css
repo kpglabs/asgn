@@ -96,4 +96,29 @@ display: block;
   position: relative;
 }
 
+.flex-block.columns .border::after {
+    bottom: 0px;
+    left: 0px;
+    padding-right: 5px;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+
+.flex-block.columns .border::before, .flex-block.columns .border::after {
+    content: "";
+    position: absolute;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+borderDraw animation {
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    padding-top: 0px;
+}
+.flex-block.columns a:hover .border::before, .flex-block.columns a:focus .border::before {
+    animation: 0.8s ease-in-out 0.4s 1 normal forwards running borderDraw;
+}
+
 
