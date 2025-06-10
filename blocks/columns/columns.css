@@ -97,10 +97,10 @@ display: block;
  
 .flex-block.columns > div > div .border{  
    position: absolute;
-    max-height: 370px;
+   max-height: 358px;
     width: calc(100% - 24px);
-    height: calc(100% - 102px);
-    top: 25px;
+    height: calc(100% - 24px);
+    top: 39px;
     left: 8px;
     z-index: 50;
 }
@@ -115,8 +115,8 @@ display: block;
 }
 
 .flex-block.columns > div > div .border:before {
-    top: 0;
-    right: 0;
+    top: -6px;
+    right: -9px;
     border-left: 4px solid white;
     border-top: 4px solid white;
     padding-left: 5px;
@@ -145,6 +145,15 @@ display: block;
     -webkit-animation: borderDraw .8s ease-in-out forwards;
     animation: borderDraw .8s ease-in-out forwards;
 }
+
+.flex-block.columns > div > div:hover .p:after,.flex-block.columns  > div > div:focus .p:after {
+    -webkit-animation: tile-icon ease-in-out 1;
+    animation: tile-icon ease-in-out 1;
+    -webkit-animation-duration: unset;
+    animation-duration: unset
+}
+
+
 
 .flex-block.columns > div > div > p::before {
     content: '';
