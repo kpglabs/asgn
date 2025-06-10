@@ -158,7 +158,7 @@ function buildBreadcrumbBlock(main) {
     const section = createElement('div');
     section.append(buildBlock('breadcrumb', { elems: [] }));  
     const header = document.createElement('header');  
-    header.append(section);
+    main.prepend(section);
   }
 }
 
