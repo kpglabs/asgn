@@ -30,6 +30,13 @@ function buildHeroBlock(main) {
   }
 }
 
+function buildBreadcrumbBlock(main) {
+  if (window.location.pathname !== '/' && window.isErrorPage !== true && !getMetadata('hideBreadcrumb')) {
+    const section = createElement('div');
+    section.append(buildBlock('breadcrumb', { elems: [] }));
+    main.prepend(section);
+  }
+}
 /**
  * load fonts.css and set a session storage flag
  */
@@ -60,6 +67,7 @@ function autolinkModals(doc) {
 function buildAutoBlocks(main) {
   try {
     buildHeroBlock(main);
+     buildBreadcrumbBlock(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
