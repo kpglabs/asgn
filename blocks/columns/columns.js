@@ -8,7 +8,8 @@ export default function decorate(block) {
     if(block.classList.contains('flex-block')){
        const border = row.closest('div');
       if(border){
-         border.classList.add('border');
+        const newDiv = border.createElement('div');
+        newDiv.className = 'border';
       }
     }
     [...row.children].forEach((col) => {
