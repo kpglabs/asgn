@@ -7,6 +7,13 @@
 .hero {
   position: relative;
   padding: 40px 24px;
+  min-height: 388px;
+  display: flex;
+}
+
+.hero > div{
+  display: flex;
+  align-items: flex-end;
 }
 
 .hero h1 {
