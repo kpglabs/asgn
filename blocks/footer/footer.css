@@ -20,6 +20,11 @@ footer a:any-link, li {
   text-decoration: none
  }
 
+ .footer-block  li a:hover, .li a:focus, .li a:active{
+
+  text-decoration: none;
+ }
+
 footer li a:hover::after, .li a:focus::after, .li a:active::after {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
