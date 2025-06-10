@@ -362,7 +362,7 @@ header nav .top-navigation li:hover:after, .li:focus:after, .li:active:after {
   
 }
 
- header nav .nav-drop img .icon{
+ header nav .nav-drop .icon{
     height: 16px;
     width: 16px;
  }
