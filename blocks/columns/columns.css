@@ -96,7 +96,7 @@ display: block;
     display: flex
 }
  
-.flex-block.columns picture img .border{
+.flex-block.columns p > a .border{
   
     position: relative;
     width: calc(100% - 24px);
@@ -106,7 +106,7 @@ display: block;
     z-index: 50;
 }
 
-.flex-block.columns picture img .border::after {
+.flex-block.columns p > a .border::after {
     bottom: 0px;
     left: 0px;
     padding-right: 5px;
@@ -114,7 +114,7 @@ display: block;
     border-right: 4px solid white;
 }
 
-.flex-block.columns picture img .border::before, .flex-block.columns picture img .border::after {
+.flex-block.columns p > a .border::before, .flex-block.columns p > a .border::after {
     content: "";
     position: absolute;
     visibility: hidden;
@@ -122,11 +122,11 @@ display: block;
     height: 0px;
 }
 
-.flex-block.columns picture img:hover .border::before, .flex-block.columns picture img:focus .border::before {
+.flex-block.columns p > a:hover .border::before, .flex-block.columns picture p> a:focus .border::before {
     animation: 0.8s ease-in-out 0.4s 1 normal forwards running borderDraw;
 }
 
-.flex-block.columns picture img:hover .border::before, .flex-block.columns picture img:focus .border::before {
+.flex-block.columns p > a:hover .border::before, .flex-block.columns p > a:focus .border::before {
     -webkit-animation: borderDraw .8s ease-in-out forwards;
     animation: borderDraw .8s ease-in-out forwards;
     -webkit-animation-delay: .4s;
