@@ -6,7 +6,7 @@ export default function decorate(block) {
   // setup image columns
   [...block.children].forEach((row) => {
     if(block.classList.contains('flex-block')){
-       const border = row.querySelector('.flex-block > div')
+       const border = row.closest('div');
       if(border){
          border.classList.add('border');
       }
