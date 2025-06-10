@@ -98,7 +98,7 @@ display: block;
  
 .flex-block.columns .border{
   
-    position: absolute;
+    position: relative;
     width: calc(100% - 24px);
     height: calc(100% - 24px);
     top: 12px;
