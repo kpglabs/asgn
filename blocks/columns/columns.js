@@ -6,7 +6,7 @@ export default function decorate(block) {
   // setup image columns
   [...block.children].forEach((row) => {
     if(block.classList.contains('flex-block')){
-       const border = block.closest('div');
+       const border = block.closest('div > div');
       if(border){
         const newDiv = document.createElement('div');
         newDiv.className = 'border';
