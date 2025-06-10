@@ -237,7 +237,7 @@ export default async function decorate(block) {
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
   block.append(navWrapper);
- nav.querySelector('breadcrumb-container').remove();
+
   if (getMetadata('breadcrumbs').toLowerCase() === 'true') {
     
   }
