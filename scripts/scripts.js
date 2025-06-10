@@ -68,7 +68,8 @@ function buildBreadcrumbBlock(main) {
     const section = createElement('div');
     section.append(buildBlock('breadcrumb', { elems: [] }));
     main.prepend(section);
-   nav.querySelector('breadcrumb-container').remove();
+    const header = document.querySelector('header');
+   header.querySelector('breadcrumb-container').remove();
   }
 }
 /**
