@@ -60,7 +60,7 @@ background-color: #002b52;
 }
 
 
-.content-flex  h3{
+.flex-block  h3{
  position: relative;
     top: 71px;
     padding-left: 20px;
@@ -73,7 +73,7 @@ background-color: #002b52;
     z-index: 1;
     overflow: hidden;
 }
-.content-flex img{
+.flex-block img{
   height: 390px;
   transform: scale(1.1);
     height: 390px;
@@ -82,14 +82,14 @@ background-color: #002b52;
   
 }
 
-.content-flex img:hover{
+.flex-block img:hover{
   outline: solid 5px white;
     outline-offset: -20px;
     margin: 0;
   transform: scale(1);
 }
 
-.content-flex .icon-right img{
+.flex-block .icon-right img{
  width: 24px;
 height: 24px;
 top: -48px;
@@ -98,18 +98,7 @@ left: 304px;
 display: block;
 }
 
-.content-flex h3#equity-inclusion-and-diversity {
-    margin-top: -18px;
-    top: 100px;
-}
 
-.content-flex > div > div{
-  margin-right: 2rem;
-}
-
-.content-flex > div > div:first-child{
-  margin-left: 1rem;
-}
 .flex-block.columns > div {
     gap: 0;
     margin-left: -.9375rem;
