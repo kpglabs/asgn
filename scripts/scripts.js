@@ -67,11 +67,9 @@ function buildBreadcrumbBlock(main) {
   if (window.location.pathname !== '/' && window.isErrorPage !== true && !getMetadata('hideBreadcrumb')) {
     const section = createElement('div');
     section.append(buildBlock('breadcrumb', { elems: [] }));
-    main.prepend(section);
-    const header = document.querySelector('header');
-    if(header.querySelector('breadcrumb-container')){
-   header.querySelector('breadcrumb-container').remove();
-    }
+    const mainSection = document.querySelector('main');
+    mainSection.prepend(section);
+   
   }
 }
 /**
