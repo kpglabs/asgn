@@ -105,7 +105,7 @@ display: block;
     z-index: 50;
 }
 
-.flex-block .border::after {
+.border::after {
     bottom: 0px;
     left: 0px;
     padding-right: 5px;
@@ -113,7 +113,7 @@ display: block;
     border-right: 4px solid white;
 }
 
-.flex-block img .border::before, .flex-block img .border::after {
+.border::before, .border::after {
     content: "";
     position: absolute;
     visibility: hidden;
@@ -121,7 +121,7 @@ display: block;
     height: 0px;
 }
 
-.flex-block.columns img:hover .border::before, .flex-block.columns img:focus .border::before {
+.flex-block.columns  img:hover > div.border::before, .flex-block.columns img:focus .border::before {
     animation: 0.8s ease-in-out 0.4s 1 normal forwards running borderDraw;
 }
 
