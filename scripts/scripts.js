@@ -60,7 +60,6 @@ function autolinkModals(doc) {
 function buildAutoBlocks(main) {
   try {
     buildHeroBlock(main);
-    buildBreadcrumbBlock(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
@@ -153,52 +152,10 @@ function loadDelayed() {
   // load anything that can be postponed to the latest here
 }
 
-function buildBreadcrumbBlock(main) {
-  if (window.location.pathname !== '/' && window.isErrorPage !== true && !getMetadata('hideBreadcrumb')) {
-    const section = createElement('div');
-    section.append(buildBlock('breadcrumb', { elems: [] }));  
-    const header = document.createElement('header');  
-    main.prepend(section);
-  }
-}
-
 async function loadPage() {
   await loadEager(document);
   await loadLazy(document);
   loadDelayed();
 }
 
-
-
 loadPage();
-
-export function createElement(tagName, classes, props, html) {
-  const elem = document.createElement(tagName);
-  if (classes) {
-    const classesArr = (typeof classes === 'string') ? [classes] : classes;
-    elem.classList.add(...classesArr);
-  }
-  if (props) {
-    Object.keys(props).forEach((propName) => {
-      elem.setAttribute(propName, props[propName]);
-    });
-  }
-
-  if (html) {
-    const appendEl = (el) => {
-      if (el instanceof HTMLElement || el instanceof SVGElement) {
-        elem.append(el);
-      } else {
-        elem.insertAdjacentHTML('beforeend', el);
-      }
-    };
-
-    if (Array.isArray(html)) {
-      html.forEach(appendEl);
-    } else {
-      appendEl(html);
-    }
-  }
-
-  return elem;
-}
