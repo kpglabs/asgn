@@ -211,6 +211,7 @@ header nav .nav-sections ul > li > ul > li {
     vertical-align: top;
     width: 8px;
     top: 5px;
+    left:1px
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
 
