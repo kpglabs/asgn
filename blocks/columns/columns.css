@@ -64,7 +64,8 @@ background-color: #002b52;
 .flex-block img{
  
   transform: scale(1.1);
-    height: 390px;
+    height: 370px;
+  max-width: 350px;
 }
 
 .flex-block img:hover{
