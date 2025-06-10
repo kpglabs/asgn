@@ -67,7 +67,7 @@ background-color: #002b52;
     height: 370px;
 }
 
-.flex-block img:hover{
+.flex-block.columns  > div > div:hover img, .flex-block.columns  > div > div:focus img{
 
   transform: scale(1);
 }
