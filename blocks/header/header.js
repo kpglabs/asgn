@@ -210,8 +210,8 @@ export default async function decorate(block) {
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
         }
       });
-    
-        navSection.ul.addEventListener('mouseover', () => {
+   const dropdown = navSection.querySelector('ul'); 
+        dropdown.addEventListener('mouseover', () => {
         if (isDesktop.matches) {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
