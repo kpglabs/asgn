@@ -370,7 +370,7 @@ header nav .top-navigation li.nav-drop[aria-expanded='true'] ul li a::after {
     width: 16px;
  }
 
-header nav .top-navigation .default-content-wrapper > ul:last-child > li[aria-expanded='true'] > ul a::after {
+header nav .top-navigation .dropDown a:after {
     content: '';
     position: relative;
     display: block;
