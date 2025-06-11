@@ -212,6 +212,7 @@ export default async function decorate(block) {
       });
        if (navSection.querySelector('ul')){
          const dropDown = navSection.querySelector('ul');
+         dropDown.classList.add('dropDown')
            dropDown.addEventListener('mouseover', () => {
         if (isDesktop.matches) {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
