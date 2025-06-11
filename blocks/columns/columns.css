@@ -211,7 +211,7 @@ header nav .top-navigation .default-content-wrapper > ul:last-child > li[aria-ex
 }
 @keyframes borderDraw  {
  
-  100% {
+  80% {
     visibility: visible;
     height: 100%;
     width: 100%;
