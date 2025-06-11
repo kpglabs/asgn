@@ -156,7 +156,7 @@ display: block;
 
 
 
-.flex-block.columns > div > div > p picture img::before {
+.flex-block.columns > div > div > p::after {
     content: '';
     position: absolute;
     left: 0;
@@ -201,3 +201,5 @@ display: block;
   }
     
 }
+
+
