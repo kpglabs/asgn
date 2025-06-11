@@ -370,7 +370,7 @@ header nav .top-navigation li.nav-drop[aria-expanded='true'] ul li a::after {
     width: 16px;
  }
 
-header nav .top-navigation .dropDown li:after {
+header nav .top-navigation .dropDown a:after {
     content: '';
     position: relative;
     display: block;
@@ -387,7 +387,7 @@ header nav .top-navigation .dropDown li:after {
     transition: .4s ease transform;
 }
 
-header nav .top-navigation .dropDown li:hover:after {
+header nav .top-navigation .dropDown a:hover:after {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
