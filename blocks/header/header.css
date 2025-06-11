@@ -341,11 +341,11 @@ header nav .nav-brand .icon-logo img {
   text-decoration: none
  }
 
-header nav .top-navigation > ul >  li:hover:after, .li:focus:after, .li:active:after , header nav .top-navigation .default-content-wrapper > ul > li[aria-expanded='true'] > ul  li:hover:after{
+header nav .top-navigation > ul >  li:hover:after, .li:focus:after, .li:active:after , header nav .top-navigation .default-content-wrapper > ul > li[aria-expanded='true'] > ul  li a:hover:after{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
- header nav .top-navigation > ul >  li:after , header nav .top-navigation .default-content-wrapper > ul > li[aria-expanded='true'] > ul  li:after {
+ header nav .top-navigation > ul >  li:after , header nav .top-navigation .default-content-wrapper > ul > li[aria-expanded='true'] > ul  li a:after {
         content: '';
         position: absolute;
         width: 100%;
@@ -361,7 +361,7 @@ header nav .top-navigation > ul >  li:hover:after, .li:focus:after, .li:active:a
         transition: .4s ease transform;
   
 }
-header nav .top-navigation .default-content-wrapper > ul > li[aria-expanded='true'] > ul  li:after{
+header nav .top-navigation .default-content-wrapper > ul > li[aria-expanded='true'] > ul  li a:after{
   background-color: #fff;
 }
 
