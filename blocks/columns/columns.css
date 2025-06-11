@@ -91,10 +91,11 @@ display: block;
     width: calc(33.33333% - 1.875rem);
     margin-left: .9375rem;
     margin-right: .9375rem;
-    flex: 0 0 auto;
     position: relative;
     cursor: pointer;
 }
+
+
  
 .flex-block.columns > div > div .border{  
    position: absolute;
