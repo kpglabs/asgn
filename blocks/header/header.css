@@ -370,5 +370,22 @@ header nav .top-navigation li.nav-drop[aria-expanded='true'] ul li a::after {
     width: 16px;
  }
 
+header nav .top-navigation .default-content-wrapper > ul:last-child > li[aria-expanded='true'] > ul a::after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: .4s ease transform;
+    transition: .4s ease transform;
+}
+
 
 
