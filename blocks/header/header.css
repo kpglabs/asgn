@@ -341,12 +341,12 @@ header nav .nav-brand .icon-logo img {
   text-decoration: none
  }
 
-header nav .top-navigation li.nav-drop:hover:after, li.nav-drop:focus:after, li.nav-drop:active:after {
+header nav .top-navigation li.nav-drop:hover:after, li.nav-drop:focus:after, li.nav-drop:active:after , header nav .top-navigation .nav-drop li a:hover:after{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
 
- header nav .top-navigation  li.nav-drop:after {
+ header nav .top-navigation  li.nav-drop:after, header nav .top-navigation .nav-drop li a:after {
         content: '';
         position: absolute;
         width: 100%;
@@ -362,7 +362,9 @@ header nav .top-navigation li.nav-drop:hover:after, li.nav-drop:focus:after, li.
         transition: .4s ease transform;
   
 }
-
+header nav .top-navigation .nav-drop li a:after {
+  background-color: #fff;
+}
  header nav  .icon{
     height: 16px;
     width: 16px;
