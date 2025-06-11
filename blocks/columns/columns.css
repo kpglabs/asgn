@@ -148,7 +148,7 @@ display: block;
     animation: borderDraw .8s ease-in-out forwards;
 }
 
-.flex-block.columns > div > div:hover .p:after,.flex-block.columns  > div > div:focus .p:after {
+.flex-block.columns > div > div:hover p:after,.flex-block.columns  > div > div:focus p:after {
     -webkit-animation: tile-icon ease-in-out 1;
     animation: tile-icon ease-in-out 1;
     -webkit-animation-duration: unset;
@@ -193,7 +193,7 @@ display: block;
    text-decoration: none;
 }
 
-header nav .top-navigation .default-content-wrapper > ul:last-child > li[aria-expanded='true'] > ul a:after {
+header nav .top-navigation .default-content-wrapper > ul:last-child > li[aria-expanded='true'] > ul a::after {
     content: '';
     position: relative;
     display: block;
