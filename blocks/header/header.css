@@ -387,5 +387,9 @@ header nav .top-navigation .dropDown li:after {
     transition: .4s ease transform;
 }
 
+header nav .top-navigation .dropDown li:hover:after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
 
 
