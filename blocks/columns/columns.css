@@ -193,7 +193,7 @@ display: block;
    text-decoration: none;
 }
 
-header nav .top-navigation .default-content-wrapper > ul:last-child > li[aria-expanded='true'] > ul a:any-link:after {
+header nav .top-navigation .default-content-wrapper > ul:last-child > li[aria-expanded='true'] > ul a:after {
     content: '';
     position: relative;
     display: block;
