@@ -62,7 +62,7 @@ background-color: #002b52;
 
 
 .flex-block img{
- 
+  object-fit: cover;
   transform: scale(1.1);
   height: 380px;
 }
