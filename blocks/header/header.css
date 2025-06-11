@@ -341,12 +341,12 @@ header nav .nav-brand .icon-logo img {
   text-decoration: none
  }
 
-header nav .top-navigation li:hover:after, .li:focus:after, .li:active:after {
+header nav .top-navigation li.nav-drop:hover:after, li.nav-drop:focus:after, li.nav-drop:active:after {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
 
- header nav .top-navigation  li:after {
+ header nav .top-navigation  li.nav-drop:after {
         content: '';
         position: absolute;
         width: 100%;
