@@ -147,6 +147,12 @@ position: relative;
 .footer-block ul{
   display: flex;
 }
+@media (width < 900px) {
+  .footer-block ul{
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 
 footer .section.background-dark-blue {
     background-color: #01203d;
