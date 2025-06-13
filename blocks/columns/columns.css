@@ -88,7 +88,6 @@ display: block;
     margin-right: -.9375rem;
 }
 .flex-block.columns > div > div {
-    width: 100%;
     margin-left: .9375rem;
     margin-right: .9375rem;
     position: relative;
