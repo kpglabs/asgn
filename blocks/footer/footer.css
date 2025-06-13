@@ -54,6 +54,11 @@ footer .block-content li a:hover::after, .li a:focus::after, .li a:active::after
     background-color: #003b71;
     padding: 3.125rem 2rem;
 }
+@media (width >= 900px) {
+.columns.block-content > div > divnot(:first-child){
+     padding: 2rem;
+ }  
+}
 
 .columns.block-content > div >  div:nth-child(2) {
 position: relative;
