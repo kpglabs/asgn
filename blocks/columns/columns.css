@@ -93,7 +93,7 @@ display: block;
     position: relative;
     cursor: pointer;
 }
-@media (width >= 900px) {
+@media (width >= 700px) {
 .flex-block.columns > div > div {
     width: calc(33.33333% - 1.875rem);
 }
