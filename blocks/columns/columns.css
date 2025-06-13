@@ -88,13 +88,18 @@ display: block;
     margin-right: -.9375rem;
 }
 .flex-block.columns > div > div {
-    width: calc(33.33333% - 1.875rem);
+    width: 100%;
     margin-left: .9375rem;
     margin-right: .9375rem;
     position: relative;
     cursor: pointer;
 }
-
+@media (width >= 900px) {
+.flex-block.columns > div > div {
+    width: calc(33.33333% - 1.875rem);
+}
+  
+}
 
  
 .flex-block.columns > div > div .border{  
