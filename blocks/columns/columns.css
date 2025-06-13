@@ -96,7 +96,9 @@ display: block;
 @media (width >= 700px) {
 .flex-block.columns > div > div {
     width: calc(33.33333% - 1.875rem);
-}
+    align-items: center;
+    flex-direction: unset;
+ }
   
 }
 
